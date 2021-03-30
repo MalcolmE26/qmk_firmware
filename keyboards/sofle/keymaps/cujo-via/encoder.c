@@ -22,15 +22,15 @@
 void encoder_update_user(uint8_t index, bool clockwise) {
     if (index == 0) {
         if (clockwise) {
-            tap_code(KC_MS_UP);
+            tap_code(KC_VOLU);
         } else {
-            tap_code(KC_MS_DOWN);
+            tap_code(KC_VOLD);
         }
     } else if (index == 1) {
         if (clockwise) {
-            tap_code(KC_MS_RIGHT);
+            tap_code(KC_PGDOWN);
         } else {
-            tap_code(KC_MS_LEFT);
+            tap_code(KC_PGUP);
         }
     }
 }

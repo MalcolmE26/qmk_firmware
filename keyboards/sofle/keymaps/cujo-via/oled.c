@@ -28,7 +28,7 @@ static void print_status_narrow(void) {
             oled_write_ln_P(PSTR("QWER"), false);
             break;
         case 1:
-            oled_write_ln_P(PSTR("SPCL"), false);
+            oled_write_ln_P(PSTR("MAUS"), false);
             break;
         default:
             oled_write_P(PSTR("Mod\n"), false);

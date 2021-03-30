@@ -23,7 +23,9 @@ for more options.
 */
 
 //Add RGB underglow
-#define RGB_DI_PIN D3
+/* #define RGB_DI_PIN D3
 #define RGBLED_NUM 14
 #define RGBLED_SPLIT {7,7}
 #define RGBLIGHT_ANIMATIONS
+
+*/

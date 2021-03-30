@@ -6,10 +6,10 @@ Layout in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists
 Features:
 
 - Symmetric modifiers (CMD/Super, Alt/Opt, Ctrl, Shift)
-- Modes for Qwerty and Colemak support
+- Modes for Qwerty and Mouse control support using wasd, with j and k as mouse buttons 1 and 2, as well as q and e
 - The OLED on master half shows selected mode and caps lock state and is rotated.
 - Left encoder controls volume up/down/mute. Right encoder PGUP/PGDOWN.
 - Via support
-- RGB underglow support remobed
+- RGB underglow support removed
 - Bongo Cat
 
