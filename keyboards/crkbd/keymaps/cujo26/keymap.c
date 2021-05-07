@@ -101,9 +101,9 @@ void oled_render_layer_state(void) {
             oled_write_ln_P(PSTR("Adjust"), false);
             break;
     }
-    oled_write_P(PSTR(\n\n), false);
-    oled_write_ln_P(PSTR("Cujo"), false);
-    oled_write_ln_P(PSTR("26"), false);
+    //oled_write_P(PSTR("\n\n")), false);
+    oled_write_ln_P(PSTR("DangerDwarf97"), false);
+    oled_write_ln_P(PSTR("Cujo26"), false);
 }
 
 
@@ -178,7 +178,7 @@ void oled_render_logo(void) {
     oled_write_P(crkbd_logo, false);
 }
 
-static void render_anim(void) {
+static void oled_render_anim(void) {
     static const char PROGMEM idle[IDLE_FRAMES][ANIM_SIZE] = {
         {
         0,  0,126,126, 24, 60,102, 66,  0, 12, 28,112,112, 28, 12,  0,116,116, 20, 20,124,104,  0,124,124,  0,112,120, 44, 36,124,124,0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,128, 64, 64, 32, 32, 32, 32, 16, 16, 16, 16, 16,  8,  8,  4,  4,  4,  8, 48, 64,128,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,128,128,128,
