@@ -102,8 +102,8 @@ void oled_render_layer_state(void) {
             break;
     }
     //oled_write_P(PSTR("\n\n")), false);
-    oled_write_ln_P(PSTR("DangerDwarf97"), false);
-    oled_write_ln_P(PSTR("Cujo26"), false);
+    oled_write_ln_P(PSTR("Rory's Corne"), false);
+    oled_write_ln_P(PSTR("FW by Cujo26"), false);
 }
 
 
